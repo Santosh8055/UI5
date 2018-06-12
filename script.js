@@ -1,3 +1,5 @@
 sap.ui.getCore().attachInit(function () {
-    alert("Under construction");
+    new sap.m.Text({
+        text: "Hello World"
+    }).placeAt("content")
 });
