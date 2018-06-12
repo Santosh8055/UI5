@@ -1,5 +1,5 @@
 sap.ui.getCore().attachInit(function () {
-    new sap.m.Text({
-        text: "Hello World"
-    }).placeAt("content")
+    sap.ui.xmlview({
+        viewName : "sap.ui.demo.walkthrough.view.App"
+     }).placeAt("content");
 });
