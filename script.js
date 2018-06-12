@@ -1,5 +1,5 @@
 sap.ui.getCore().attachInit(function () {
-    sap.ui.xmlview({
-        viewName : "sap.ui.demo.walkthrough.view.App"
+    new sap.ui.core.ComponentContainer({
+        name : "sap.ui.demo.walkthrough"
      }).placeAt("content");
 });
