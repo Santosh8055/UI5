@@ -1,7 +1,7 @@
 sap.ui.getCore().attachInit(function () {
     new sap.m.Shell({
         app : new sap.ui.core.ComponentContainer({
-           name : "sap.ui.demo.walkthrough",
+           name : "sap.ui.demo",
            settings : {
                id : "walkthrough"
            }
